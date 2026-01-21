@@ -6,7 +6,7 @@ public class Q2_BufferComparison {
 
 	static File source = new File("resources/sample.png");
 
-	// -------- NON BUFFERED BYTE --------
+	//NON BUFFERED BYTE
 	static long nonBuffered() throws IOException {
 
 		File dest = new File("resources/nonBuffered.jpg");
@@ -26,7 +26,7 @@ public class Q2_BufferComparison {
 		return end - start;
 	}
 
-	// -------- BUFFERED BYTE --------
+	//BUFFERED byte
 	static long buffered() throws IOException {
 
 		File dest = new File("resources/buffered.jpg");
